@@ -14,6 +14,7 @@ public class Conta {
     this.saldo = saldo;
   }
 
+  // poñemos outro constructor baldeiro
   public Conta() {
   }
 }
