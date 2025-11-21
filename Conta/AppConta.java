@@ -2,10 +2,8 @@ package Conta;
 
 public class AppConta {
   public static void main(String[] args) {
-    Conta c = new Conta(); // creamos o obxecto C co constructor por defecto
-    c.idConta = 01; // imos dandolle valores aos atributos
-    c.saldo = 1000000000;
-    c.titular = "Jorge";
+    // creamos o obxecto usando o constructor
+    Conta c = new Conta(01, "Tonecho", 1000); // creamos o obxecto C co constructor por defecto
 
     // mostramos resultados
     System.out.println(c.idConta);
